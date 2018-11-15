@@ -17,6 +17,7 @@ class Main2Activity : AppCompatActivity() {
     }
     fun boton2(view: View) {
         val hola = Intent(this@Main2Activity, Main5Activity::class.java)
+
         startActivity(hola)
     }
 }
