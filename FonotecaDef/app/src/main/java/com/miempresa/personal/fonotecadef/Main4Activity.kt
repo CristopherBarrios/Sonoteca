@@ -9,12 +9,6 @@ class Main4Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        //val song = getExtras("name")
-
-
         setContentView(R.layout.activity_main4)
-
-        Log.d("NAME SONG", intent.getStringExtra("name").toString())
     }
 }
