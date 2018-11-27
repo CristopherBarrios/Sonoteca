@@ -18,4 +18,8 @@ class MainActivity : AppCompatActivity() {
     fun boton2(view: View) {
         System.exit(0);
     }
+    fun boton3(view: View) {
+        val hola = Intent(this@MainActivity, Main6Activity::class.java)
+        startActivity(hola)
+    }
 }
